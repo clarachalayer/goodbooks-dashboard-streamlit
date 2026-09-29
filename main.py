@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Configurer la page de l'application
-st.set_page_config(page_title="A Random App", layout="wide")
+st.set_page_config(page_title="Goodbooks Dashboard", layout="wide")
 
 # CSS personnalisé pour le style
 def apply_custom_css():
@@ -78,8 +78,8 @@ def apply_custom_css():
 apply_custom_css()
 
 # Ajouter le titre principal et le sous-titre
-st.markdown("<h1>A Random App</h1>", unsafe_allow_html=True)
-st.markdown("<h2>Look at the pretty waves</h2>", unsafe_allow_html=True)
+st.markdown("<h1>📚 Goodbooks Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h2>Analyse exploratoire de 10 000 livres Goodreads</h2>", unsafe_allow_html=True)
 
 # Menu de navigation interactif
 menu_options = ['Home', 'EDA', 'Insights', 'Prediction']
